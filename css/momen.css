@@ -1,0 +1,82 @@
+:root {
+    --main-color: #2196f3;
+    --main-color-alt: #1787e0;
+    --main-transition: 0.3s;
+    --main-padding-top: 100px;
+    --main-padding-bottom: 100px;
+    --section-background: #ececec;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 96.9px;
+    transition: max-width 0.7s ease, padding 0.7s ease;
+    -webkit-transition: max-width 0.7s ease, padding 0.7s ease;
+    -moz-transition: max-width 0.7s ease, padding 0.7s ease;
+    -ms-transition: max-width 0.7s ease, padding 0.7s ease;
+    -o-transition: max-width 0.7s ease, padding 0.7s ease;
+}
+
+@media (max-width: 767px) {
+
+    /* Mobile */
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Tablets */
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+    /* Small Laptops */
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1919px) {
+
+    /* Laptops and Desktops */
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    /* Large Screens */
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/*  */
